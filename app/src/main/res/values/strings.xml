@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CourseAssistant</string>
+    <string name="welcome">Welcome to use CoureseAssistant,I will provide some services for you</string>
+    <string-array name="welcome">
+        <item>主人，我好无聊呀，快来陪我玩吧。</item>
+        <item>主人，你又来陪我玩了呀，不能太久哦，你还要好好复习呢。</item>
+        <item>主人，我们一起唱歌吧。</item>
+        <item>我想主人了呢。</item>
+        <item>主人是这个世界上最好看的人!</item>
+        <item>今天天气超级好，我心情也很愉快哦。</item>
+        <item>小主人，一起散步嘛。</item>
+    </string-array>
+</resources>

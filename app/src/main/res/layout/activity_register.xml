@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="userName and SurName"
+        android:textColorHint="#cccccc"
+        />
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:inputType="numberPassword"
+        android:hint="passWord"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        />
+    <EditText
+        android:id="@+id/repassWord"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:inputType="numberPassword"
+        android:hint="repassWord"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        />
+    <EditText
+        android:id="@+id/contect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:hint="contact"
+        android:gravity="center"
+        android:textColorHint="#cccccc"
+        />
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/dataMine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data mine"/>
+        <CheckBox
+            android:id="@+id/hci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HCI"/>
+        <CheckBox
+            android:id="@+id/nlp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NLP"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/spark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spark"/>
+        <CheckBox
+            android:id="@+id/iot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iot"/>
+        <CheckBox
+            android:id="@+id/tcpip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tcp/ip"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:onClick="onClickRegister"
+        android:text="register"
+        />
+
+</LinearLayout>
